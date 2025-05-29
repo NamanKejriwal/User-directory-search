@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 35rem;
+    margin: 3.5rem auto;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    min-height: 85vh;
+}
+
+/* Search Input Styling */
+.searchUser {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Heading Styling */
+.heading {
+    margin-top: 0.75rem;
+    color: #333;
+}
+
+/* User Container Styling */
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 0.5rem;
+}
+
+/* User Item Styling */
+.userItem {
+    display: flex; /* Aligns image and text horizontally */
+    align-items: center; /* Vertically aligns image and text */
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.userItem:hover {
+    background-color: #e0e0e0;
+}
+
+/* User Image Container Styling */
+.user-image-container {
+    margin-right: 1rem; /* Adds spacing between image and text */
+    display: flex;
+    align-items: center;
+}
+
+/* User Image Styling */
+.userimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1; /* Ensures the image remains square */
+    margin-right: 1rem;
+    object-position: top;
+    
+    
+}
+
+/* User Text Container Styling */
+.user-text-container {
+    display: flex;
+    flex-direction: column; /* Stacks name and email vertically */
+    justify-content: center;
+}
+
+/* User Name Styling */
+.userName {
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
+}
+
+/* Email ID Styling */
+.emailid {
+    font-size: 0.85rem;
+    color: #666;
+}
